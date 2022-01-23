@@ -1,0 +1,30 @@
+{
+	"development": {
+		"username": "postgres",
+		"password": "admin",
+		"database": "database_game_ch9_dev",
+		"host": "127.0.0.1",
+		"dialect": "postgres"
+	},
+	"test": {
+		"username": "postgres",
+		"password": "admin",
+		"database": "database_game_ch9_test",
+		"host": "127.0.0.1",
+		"dialect": "postgres"
+	},
+	"production": {
+		"username": "vpwlyfdxpwxvzk",
+		"password": "4236d3f7623bde6844d96582b7e51981fa9e07a3b9808328eaa0b668c5c6e049",
+		"database": "da6mirc5tglubo",
+		"host": "ec2-34-193-235-32.compute-1.amazonaws.com",
+		"dialect": "postgres",
+		"dialectOptions": {
+			"ssl" : {
+				"require" : true,
+				"rejectUnauthorized" : false
+			}
+		}
+
+	}
+}
